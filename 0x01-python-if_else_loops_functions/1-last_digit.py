@@ -11,4 +11,4 @@ elif last_digit == 0:
     remark = "and is 0"
 else:
     remark = "and is less than 6 and not 0"
-print(f"Last digit of {number} is {last_digit} {remark}")
+print(f"Last digit of {number:d} is {last_digit:d} {remark}")
